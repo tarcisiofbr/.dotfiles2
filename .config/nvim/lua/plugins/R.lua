@@ -6,7 +6,16 @@ return {
         -- R.nvim is still young and we may make some breaking changes from time
         -- to time. For now we recommend pinning to the latest minor version
         -- like so:
-        version = "~0.1.0" 
+        version = "~0.1.0",
+        config = function()
+        -- Create a table with the options to be passed to setup()
+            local opts = {
+                -- R_path = "/home5/attilio/programs/miniconda3/envs/rna-seq/bin/"
+                -- pipe_keymap = ""
+            }
+            require("r").setup(opts)
+        end,
+
     },
     {
         "R-nvim/cmp-r",

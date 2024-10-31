@@ -36,6 +36,7 @@ vim.keymap.set('i', '<M-m>', ' %>% ')
 vim.keymap.set('i', '<M-i>', ' %in% ')
 vim.keymap.set('n', '<C-j>', '3<C-e>')
 vim.keymap.set('n', '<C-k>', '3<C-y>')
+vim.keymap.set('n', '<leader>w', '<C-w>')
 
 vim.keymap.set("n", "<A-j>", ":m .+1<CR>==")
 vim.keymap.set("n", "<A-k>", ":m .-2<CR>==")
