@@ -169,8 +169,8 @@ bindsym Print exec flameshot gui
 bindsym Shift+Print exec flameshot gui
 
 # smart_gaps on
-gaps inner 10
-gaps outer 5
+# gaps inner 10
+# gaps outer 5
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
