@@ -118,25 +118,5 @@ fi
 # My config
 PS1='\[\e[36m\]\u@\h \[\e[0m\][\[\e[36m\]\A\[\e[0m\]] {\[\e[36m\]\w\[\e[0m\]}\n\[\e[36m\]\\$ \[\e[0m\]'
 source ~/.bash_aliases
-source /usr/share/doc/fzf/examples/key-bindings.bash
-export PATH="$PATH:/opt/nvim-linux64/bin"
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/tarcisio/miniforge3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/tarcisio/miniforge3/etc/profile.d/conda.sh" ]; then
-        . "/home/tarcisio/miniforge3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/tarcisio/miniforge3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-
-if [ -f "/home/tarcisio/miniforge3/etc/profile.d/mamba.sh" ]; then
-    . "/home/tarcisio/miniforge3/etc/profile.d/mamba.sh"
-fi
-# <<< conda initialize <<<
+source /usr/share/fzf/key-bindings.bash
 

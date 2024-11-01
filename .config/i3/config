@@ -198,5 +198,6 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status --config ~/.config/i3/i3status.conf 
-        font pango:DejaVu Sans Mono 10
+        # font pango:DejaVu Sans Mono 9
+        font pango:Fira Code Regular 9
 }
